@@ -30,7 +30,11 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  speech_to_text: ^6.3.0
+  speech_to_text: ^7.0.0 #Pensando en cambiarla a futuro
+  flutter_background: ^1.3.0+1 #Falta explotar sus posiblidades
+  http: ^1.2.2 #Para traduccion
+  translator: ^1.0.0 #Para traduccion tambien pero tiene mejores resultados
+  flutter_overlay_window: ^0.4.5 #Falta explotar sus posiblidades
 
 
   # The following adds the Cupertino Icons font to your application.
